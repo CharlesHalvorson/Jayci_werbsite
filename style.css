@@ -19,6 +19,9 @@ body {
     max-width: 90%;
     height: auto;
     margin: 20px 0;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    max-width: 600px;
 }
 
 h1 {
