@@ -11,6 +11,5 @@ body {
 
 #Picture {
     border: 10px ridge dimgrey;
-    height: auto;
     max-width: 600px;
 }
