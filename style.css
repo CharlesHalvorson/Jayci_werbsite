@@ -7,15 +7,10 @@ body {
 #button {
     background-color: purple;
     border: ridge;
-    border-radius: 5px
 }
 
 #Picture {
     border: 10px ridge dimgrey;
     height: auto;
     max-width: 600px;
-}
-
-h1 {
-    color: white;
 }
