@@ -1,15 +1,33 @@
 /* Add styles here */
-*{
+body {
     background-color: #2E5090;
     text-align: center;
+    font-family: sans-serif;
 }
-#button{
+
+#button {
     background-color: aliceblue;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
 }
-#Picture{
-    border: ridge;
-    border-width: 10px;
-    border-color: dimgrey;
-    max-width: 600px;
-    max-height: 600px;
+
+#Picture {
+    border: 10px ridge dimgrey;
+    max-width: 90%;
+    height: auto;
+    margin: 20px 0;
+}
+
+h1 {
+    color: white;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 24px;
+    }
 }
