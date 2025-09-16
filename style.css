@@ -12,6 +12,7 @@ body {
 #Picture {
     border: 10px ridge dimgrey;
     max-width: 600px;
+    text-align: center;
 }
 .stripes {
     background-image: repeating-linear-gradient(
