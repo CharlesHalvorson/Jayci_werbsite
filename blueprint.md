@@ -1,24 +1,25 @@
 # Project Blueprint
 
 ## Overview
+This project is a personal website for Jayci, with interactive elements to reveal and hide content. It's built with HTML, CSS, and JavaScript, and features a responsive design.
 
-This project is a simple website that displays random cat pictures. The user can click a button to load a new cat picture. The goal is to create a visually appealing and responsive website that works well on both desktop and mobile devices.
+## Implemented Features
 
-## Project Details
+### General
+* **Responsive Design:** The website is designed to work on both mobile and desktop devices.
+* **Interactive Content:** The website uses buttons to toggle the visibility of hidden content, such as images and videos.
 
-### Style and Design
-*   **Layout:** A simple, single-column layout with the cat picture as the main focus.
-*   **Color Palette:** A dark blue background with white text and a light-colored button.
-*   **Typography:** A clean, readable font for the heading.
-*   **Visuals:** The main visual is a randomly loaded image of a cat. The image has a decorative border.
+### Specific
+* **Greeting:** The website displays a greeting to Jayci.
+* **Singers Section:** A button toggles a grid of images of singers.
+* **"Green Jacket Guy" Section:** A button toggles a grid of images of a man in a green jacket.
+* **Motivational Video:** A button toggles a video with subtitles and audio. The video is from the `video` folder and the audio is from the root directory.
+* **Inside Joke 3D object:** A button toggles a rotating 3D object. This is implemented using the Three.js library.
+* **Zoom Slider:** A slider allows the user to control the zoom of the 3D scene.
+* **Loading Message:** A loading message is displayed while the 3D model is loading.
 
-### Features
-*   **Random Cat Pictures:** The website displays a new cat picture from `cataas.com` on each page load.
-*   **"New Cat Picture" Button:** A button that reloads the page to show a new cat picture.
+### Bug Fixes
+* **Audio Playback:** Fixed an issue where the audio for the motivational video would not play automatically due to browser autoplay policies.
 
-## Current Task: Responsive Design for Mobile
-
-### Plan
-1.  **Add Media Queries:** Add CSS media queries to `style.css` to adjust the layout and styling for mobile devices, specifically iPhones.
-2.  **Responsive Image:** Make the cat picture scale correctly on smaller screens.
-3.  **Adjust Typography:** Reduce the font size of the heading on mobile to improve readability.
+## Current Plan
+*   No active plan. The project is in a stable state.

@@ -1,0 +1,22 @@
+h1{
+    font-family: "Permanent Marker", cursive;
+}
+button{
+    font-family: "Permanent Marker", cursive;
+}
+.permanent-marker-regular {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+#singers-container, #green-shirt-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}

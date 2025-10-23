@@ -1,0 +1,32 @@
+/* Add styles here */
+body {
+    background-color: #2E5090;
+    text-align: center;
+}
+
+#button {
+    background-color: aliceblue;
+    border: ridge;
+}
+
+#Picture {
+    border: 10px ridge dimgrey;
+    max-width: 600px;
+}
+.stripes {
+    background-image: repeating-linear-gradient(
+        45deg,
+        hsla(312, 0%, 63%, 0.05) 0px,
+        hsla(312, 0%, 63%, 0.05) 10px,
+        transparent 10px,
+        transparent 100px
+      ),
+      repeating-linear-gradient(
+        90deg,
+        hsla(312, 0%, 63%, 0.05) 0px,
+        hsla(312, 0%, 63%, 0.05) 50px,
+        transparent 50px,
+        transparent 100px
+      ),
+      linear-gradient(90deg, hsl(80, 0%, 20%), hsl(80, 0%, 20%));
+  }
