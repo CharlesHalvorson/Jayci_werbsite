@@ -38,6 +38,19 @@ motivationButton.addEventListener('click', function() {
     }
 });
 
+const funButton = document.getElementById('fun-button');
+const funVideo = document.getElementById('fun-video');
+
+funButton.addEventListener('click', function() {
+    if (funVideo.style.display === 'block') {
+        funVideo.style.display = 'none';
+        funVideo.pause();
+    } else {
+        funVideo.style.display = 'block';
+        funVideo.play();
+    }
+});
+
 video.addEventListener('play', () => {
     audio.currentTime = video.currentTime;
 });
