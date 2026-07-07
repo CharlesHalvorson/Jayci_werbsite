@@ -252,12 +252,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const macbutton = document.getElementById('macbutton');
     const macvideo = document.getElementById('macvideo');
+    const macvideo2 = document.getElementById('macvideo2');
 
     macbutton.addEventListener('click', function() {
         if (macvideo.style.display === 'none') {
             macvideo.style.display = 'grid';
+            macvideo2.style.display = 'grid';
         } else {
-            macvideo.style.display = 'none';        }
+            macvideo.style.display = 'none';        
+            macvideo2.style.display = 'none';        }
     });
 
     document.addEventListener('DOMContentLoaded', function() {
