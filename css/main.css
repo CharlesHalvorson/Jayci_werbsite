@@ -65,8 +65,8 @@ img {
     height: auto;
 }
 #face{
-    width: 500%;
-    height: 500%;
+    width: 50%;
+    height: 50%;
 }
 .buttons{
     display: flex;
