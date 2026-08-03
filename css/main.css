@@ -68,6 +68,16 @@ img {
     width: 50%;
     height: 50%;
 }
+.huh {
+  justify-content: center; 
+  display: flex; 
+}
+.mhm{
+  justify-content: center; 
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+}
 .buttons{
     display: flex;
     align-items: center;
