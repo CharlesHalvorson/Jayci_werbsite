@@ -16,3 +16,21 @@ function tog(){
 function togg(duck){
     console.log(duck);
 }
+
+function toggleRaptorImages() {
+    var images = document.getElementById("raptor-images");
+    if (images.style.display === "none") {
+        images.style.display = "block";
+    } else {
+        images.style.display = "none";
+    }
+}
+
+function toggleGarbageImage() {
+    var image = document.getElementById("garbage-image");
+    if (image.style.display === "none") {
+        image.style.display = "block";
+    } else {
+        image.style.display = "none";
+    }
+}
