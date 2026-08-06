@@ -1,0 +1,12 @@
+body {
+    display: grid;
+    height: 100vh; /* Gives the grid full screen height to move vertically */
+    margin: 0;     /* Removes default browser spacing */
+  }
+  
+  #box {
+    border: 1px ridge red;
+    display: flex; 
+    width: fit-content;
+  }
+  
