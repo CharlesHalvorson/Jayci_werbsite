@@ -34,4 +34,4 @@ setInterval(function() {
 
     // Move to the next position, reset to 0 after 7
     position = (position + 1) % 8;
-}, 500);
+}, 500);h
