@@ -34,3 +34,12 @@ function toggleGarbageImage() {
         image.style.display = "none";
     }
 }
+
+function toggleNewImages() {
+    var images = document.getElementById("new-images");
+    if (images.style.display === "none") {
+        images.style.display = "block";
+    } else {
+        images.style.display = "none";
+    }
+}
