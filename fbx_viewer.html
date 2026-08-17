@@ -66,9 +66,9 @@
         scene.add( ground );
 
         // Grid and Axes
-        const grid = new THREE.GridHelper( 2000, 20, 0x000000, 0x000000 );
-        grid.material.opacity = 0.2;
-        grid.material.transparent = true;
+        const grid = new THREE.GridHelper( 20, 20, 0x000000, 0x000000 );
+        grid.material.opacity = 1;
+        grid.material.transparent = false;
         scene.add( grid );
 
         const axesHelper = new THREE.AxesHelper( 150 );
