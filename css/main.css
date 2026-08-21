@@ -280,3 +280,13 @@ deepskyblue;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
+#maps{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+}
+.map{
+  width: 100%;
+  /* height: 100%; */
+
+}
