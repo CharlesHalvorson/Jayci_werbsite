@@ -31,7 +31,7 @@
 
         // Camera setup
         const camera = new THREE.PerspectiveCamera( 45, window.innerWidth / window.innerHeight, 1, 2000 );
-        camera.position.set( 100, 1000, 100 );
+        camera.position.set( 100, 200, 300 );
 
         // Renderer setup
         const renderer = new THREE.WebGLRenderer( { antialias: true } );
@@ -46,11 +46,11 @@
         controls.update();
 
         // Lighting
-        const hemiLight = new THREE.HemisphereLight( 0xffffff, 0x0000ff );
+        const hemiLight = new THREE.HemisphereLight( 0xffffff, 0x444444 );
         hemiLight.position.set( 0, 200, 0 );
         scene.add( hemiLight );
 
-        const dirLight = new THREE.DirectionalLight( 0xff0000 );
+        const dirLight = new THREE.DirectionalLight( 0xffffff );
         dirLight.position.set( 0, 200, 100 );
         dirLight.castShadow = true;
         dirLight.shadow.camera.top = 180;
@@ -66,7 +66,7 @@
         scene.add( ground );
 
         // Grid and Axes
-        const grid = new THREE.GridHelper( 2000, 20, 0x000000, 0x000000 );
+        const grid = new THREE.GridHelper( 20, 20, 0x000000, 0x000000 );
         grid.material.opacity = 1;
         grid.material.transparent = false;
         scene.add( grid );
