@@ -43,3 +43,14 @@ function toggleNewImages() {
         images.style.display = "none";
     }
 }
+
+const mamButton = document.getElementById('Mam');
+const mamvid = document.getElementById('mamvid');
+
+mamButton.addEventListener('click', function() {
+    if (mamvid.style.display === 'block') {
+        mamvid.style.display = 'none';
+    } else {
+        mamvid.style.display = 'block';
+    }
+});
